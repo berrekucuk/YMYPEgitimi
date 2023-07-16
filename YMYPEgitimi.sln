@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Operatorler", "03.Operat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SartBloglari", "04.SartBloglari\04.SartBloglari.csproj", "{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Listeler", "05.Listeler\05.Listeler.csproj", "{F02D4259-704D-45DA-82D5-A005940EE9AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02D4259-704D-45DA-82D5-A005940EE9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02D4259-704D-45DA-82D5-A005940EE9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02D4259-704D-45DA-82D5-A005940EE9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02D4259-704D-45DA-82D5-A005940EE9AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
