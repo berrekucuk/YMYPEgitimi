@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DegerTiplerVeReferansTip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Operatorler", "03.Operatorler\03.Operatorler.csproj", "{CCEA9F8F-74A4-440B-941C-77B096B4594B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.SartBloglari", "04.SartBloglari\04.SartBloglari.csproj", "{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CCEA9F8F-74A4-440B-941C-77B096B4594B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCEA9F8F-74A4-440B-941C-77B096B4594B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCEA9F8F-74A4-440B-941C-77B096B4594B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10FD7A17-3C89-4CBB-8C74-C5453EB8C93A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
