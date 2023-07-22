@@ -38,13 +38,33 @@
             //oop içerisinde tip belirtmek zorunda olduğun için liste belirtilen tipte olmak sorunda
             //json formatı kullanıyor olsaydın listede farklı tipler olabilirdi.
 
-            int x = 0;
-            while (names.Count()>0) //sonsuz döngü oluşturur.
+            //int x = 0;
+            //while (names.Count()>0) //sonsuz döngü oluşturur.
+            //{
+            //    x++;
+            //    if (x == 5) break;
+            //    Console.WriteLine("Çalışıyor!");
+            //}
+
+            //do  //döngü şartı sağlanmasa bile bir defaya mahsus çalış demek için kullanılıyor.
+            //{
+            //    Console.WriteLine("Çalışıyor!");
+            //} while (names.Count < 0);
+
+            for (int x = 0; x < names.Count(); x++)
             {
-                x++;
-                if (x == 5) break;
-                Console.WriteLine("Çalışıyo!");
+                if (x==4)
+                {
+                    break; //bu döngüyü sonlandırır.
+                }
+                if (x==2)
+                {
+                    continue; // bu döngüde kalan kısmı atlar.
+                }
+                Console.WriteLine(names[x]);
             }
+
+
         }
     }
 }
