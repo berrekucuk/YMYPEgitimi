@@ -10,5 +10,19 @@ try
 }
 catch (Exception ex)
 {
-    Console.WriteLine(ex);
+    Console.WriteLine($"Hata: {ex.Message} ");
 }
+finally
+{
+    Console.WriteLine("Ben her halükarda çalışırım!");
+}
+//int x = int.MaxValue;
+
+//checked
+//{
+//    x++;
+//}
+//unchecked
+//{
+//    Console.WriteLine("Bunu yapamazsın!");
+//}
